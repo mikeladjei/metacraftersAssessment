@@ -30,7 +30,6 @@ function listNFTs() {
     console.log("Name: " + nft.name);
     console.log("Ko: " + nft.ko);
     console.log("Killnumber: " + nft.killnumber);
-    console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
   }
 }
 
