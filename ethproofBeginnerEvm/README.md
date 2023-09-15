@@ -28,15 +28,15 @@ you can also test the contract in the remix ide with the remix vm
 
 * check for tokenName, and tokenAbbrv
 
-* mint maxilakh to a given address using the mint function
+* mint sikapuduoo to a given address using the mint function
 
-    this requires you to input the address you are minting to, and the amount of tokens you want to mint.
+    requires an address you are minting to, and the amount of sikapuduoo tokens you want to create
 
-  * check balance of that address using the balance function
+  * check balance of wallet address using the balance function
 
-    this requires you to input the address of the user whose balance, you want to check
+    this requires you to input the address , you want to check
 
-* burn tokens  to an address using the burn function
+* burn sikapuduoo tokens of an address using the burn function
   
     the amount of tokens you burnt will be subtracted from the balance of the address you provided.
 
