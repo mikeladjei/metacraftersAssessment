@@ -17,18 +17,13 @@ contract TokenCreation  {
                                            string public tokenAbbrv = 'SIK';
                                            uint public totalSupply = 0.00;
 
-                       // mapping variable 
  mapping(address => uint) public balances;
 
-
-                      // mint function
                                       function mint(address _address, uint _amount) public {
                                       totalSupply += _amount;
                                       balances[_address] += _amount;
     }
-
-
-                     // burn function                                 
+                                
                                       function burn(address _address, uint _amount) public {
                                       require(balances[_address] >= _amount, "TRANSACTION ERROR");
                                       totalSupply -= _amount;
