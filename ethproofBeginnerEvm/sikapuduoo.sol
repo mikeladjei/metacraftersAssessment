@@ -1,6 +1,3 @@
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
-
 /*
        REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
@@ -15,12 +12,10 @@ pragma solidity 0.8.19;
        to the amount that is supposed to be burned.
 */
 
-contract TokenCreation {
-
-                        // public variables 
+contract TokenCreation  {
                                            string public tokenName = 'sikapuduoo';
                                            string public tokenAbbrv = 'SIK';
-                                           uint public totalSupply = 0;
+                                           uint public totalSupply = 0.00;
 
                        // mapping variable 
  mapping(address => uint) public balances;
@@ -40,3 +35,6 @@ contract TokenCreation {
                                       balances[_address] -= _amount;
     }
 }
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
