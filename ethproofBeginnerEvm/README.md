@@ -46,7 +46,7 @@ with this code anybody at all can mint sikapuduoo
 this shouldnt be the case, there should be a function to prevent that
 
 anybody at all can burn tokens even if they don't own those tokens
-Also, thisshouldnt be the case, there should be a function to prevent that
+Also, this shouldnt be the case, there should be a function to prevent that
 
 #### ACADEMY
 METACRAFTERS
