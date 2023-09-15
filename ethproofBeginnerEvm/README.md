@@ -1,67 +1,52 @@
-# SIKAPUDUOO
+## About SIKAPUDUOO.SOL
+ you can mint and burn sikapuduoo tokens
+ but you cant burn more than you have
 
-A simple blockchain currency with functionality for creating tokens and destroying tokens
+# To Begin
 
-## Description
+visit remix, a browser based editor
 
-My code is found in the file sikapuduoo.sol
+create a folder and file under contract
 
-blockchain token named SIK
+copy and paste the code in your github into the  file you created on remix
 
-Any user can mint tokens
+select solidity compiler on remix and compile the contract
 
-Any user can burn tokens
+# Deploying
 
-## Getting Started
+after compiling, deploy to testnet
 
-visit the remix ide website
-
-create a new file called sikapuduoo.sol under the contracts folder in the remix ide explorer
-
-copy and paste the code in this directory into the new file you created
-
-select the appropriate solidity compiler (specified on the pragma line) and compile the contract
-
-### Installing
-
-following compilation you can deploy to any blockchain mannet or testnet
-
-this will require that you connect your metamask account to the remix ide
+ connect your metamask account to the remix ide
 
 you will also need to pay gas fees for contract deployment
 
 you can also test the contract in the remix ide with the remix vm
 
-### Executing program
+# What goes on
 
-* start by minting tokens to a given address using the mint function
+* check the total supply at any moment using totalSuppl
+
+* check for tokenName, and tokenAbbrv
+
+* mint maxilakh to a given address using the mint function
 
     this requires you to input the address you are minting to, and the amount of tokens you want to mint.
 
-  * now you can check the balance of that address using the balances function
+  * check balance of that address using the balance function
 
     this requires you to input the address of the user whose balance, you want to check
 
-* you can also burn tokens  using the same inputs as the mint function.
+* burn tokens  to an address using the burn function
+  
+    the amount of tokens you burnt will be subtracted from the balance of the address you provided.
 
-    the amount of tokens you specify will be removed from the balance of the address you provided, destroying them
+# NOTE
 
-* you can check the total supply at any moment using totalSupply, it takes no input
+with this code anybody at all can mint sikapuduoo
+this shouldnt be the case, there should be a function to prevent that
 
-* similarly you can check for tokenName, and tokenAbbrv
+anybody at all can burn tokens even if they don't own those tokens
+Also, thisshouldnt be the case, there should be a function to prevent that
 
-## Help
-
-PROBLEMS WITH CONTRACT
-
-anyone can mint SIK tokens 
-extra functionality is required to make sure only moderator address can mint tokens
-
-anyone can burn SIK tokens even if they don't own those tokens
-extra functionality is required to make sure one can only burn tokens they own
-
-## Authors
-Michael Nana Adjei
-
-##License
-MIT
+#### ACADEMY
+METACRAFTERS
